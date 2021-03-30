@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-saathiserver-dev-205849-authRole",
+      "UnauthRoleArn": "arn:aws:iam::498026710728:role/amplify-saathiserver-dev-205849-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::498026710728:role/amplify-saathiserver-dev-205849-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-saathiserver-dev-205849-deployment",
+      "UnauthRoleName": "amplify-saathiserver-dev-205849-unauthRole",
+      "StackName": "amplify-saathiserver-dev-205849",
+      "StackId": "arn:aws:cloudformation:us-east-2:498026710728:stack/amplify-saathiserver-dev-205849/62269300-9192-11eb-bc76-02f4fb1d662e",
+      "AmplifyAppId": "d1redacfg616nr"
+    },
+    "categories": {
+      "function": {
+        "saathifunction": {
+          "deploymentBucketName": "amplify-saathiserver-dev-205849-deployment",
+          "s3Key": "amplify-builds/saathifunction-4d32362f383549737849-build.zip"
+        }
+      }
+    }
+  }
+}

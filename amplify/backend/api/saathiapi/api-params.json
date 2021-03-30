@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/",
+            "lambdaFunction": "saathifunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/"
+        }
+    ],
+    "resourceName": "saathiapi",
+    "apiName": "saathiapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "saathifunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-saathiserver-dev-205849-authRole",
+        "unAuthRoleName": "amplify-saathiserver-dev-205849-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "saathifunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
